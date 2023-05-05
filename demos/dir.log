@@ -1,0 +1,18 @@
+
+    Directory: C:\
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          25/04/2023    15:33                Intel
+d-r--          05/05/2023    09:29                Program Files
+d-r--          25/04/2023    09:05                Program Files (x86)
+d-r--          06/01/2023    09:06                Users
+d----          25/04/2023    10:05                Windows
+-a---          05/05/2023    14:34          89826 fog.log
+
+Get-ChildItem: 
+Line |
+   2 |  Get-ChildItem 'C:/', 'fakepath' *>&1 > ./demos/dir.log
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot find path 'C:\Users\Administrateur\OneDrive - M2I\Documents\PowerShell\fakepath' because it does not exist.
+

@@ -1,0 +1,9 @@
+
+    Directory: C:\Users\Administrateur\OneDrive - M2I\Documents\PowerShell\redirection
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+la---          05/05/2023    15:00          13365 Temp
+
+Get-ChildItem: Cannot find path 'C:\Users\Administrateur\OneDrive - M2I\Documents\PowerShell\fakepath' because it does not exist.
+

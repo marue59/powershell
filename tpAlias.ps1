@@ -17,6 +17,7 @@ pss | Where-Object -Property Name -Like p* | Sort-Object -Property WS -Descendin
 
 # 4. Utiliser la mise en forme pour afficher les porcessus filtrés sours forme de tableau avec les colonnes suivantes : name, id, workingSet64
 # concatenantion des 3 avant
-
-Get-Process | Sort-Object -Property WS -Descending | Format-Table 
+pss | Where-Object -Property Name -Like p* | 
+Sort-Object -Property WS -Descending | 
+Select-Object Name, id, WorkingSet64
 

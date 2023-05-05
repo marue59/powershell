@@ -1,0 +1,2 @@
+C:\Users\Administrateur
+C:\Users\Administrateur\OneDrive - M2I\Documents\PowerShell\Microsoft.VSCode_profile.ps1
